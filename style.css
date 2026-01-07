@@ -30,24 +30,18 @@ padding: 0.6rem 1rem;
 display: inline-block;
 }
 .galerie {
-display: grid;
-width: 100%;
-grid-template-columns: repeat(auto-fit, minimax(200px, 1 fr));
-gap: 15px;
-padding: 10px;
-box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-conent: center;
 }
 .galerie img {
-width: 100%;
+width: calc(50% -10px);
 height: auto;
-object-fit: cover;
 display: block;
 }
-@media (max-width: 768px) {
-.galerie {
-grid-template-columns: repeat(2,1fr);
-}
+@media (max-width: 600px) {
 .galerie img {
-height: 180px;
+width: 100%;
 }
 }
