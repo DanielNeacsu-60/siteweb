@@ -32,7 +32,7 @@ display: inline-block;
 .galerie {
 display: grid;
 width: 100%;
-grid-template-columns: repeat(4,1fr);
+grid-template-columns: repeat(auto-fit, minimax(200px, 1 fr));
 gap: 15px;
 padding: 10px;
 box-sizing: border-box;
