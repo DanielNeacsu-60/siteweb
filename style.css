@@ -1,29 +1,29 @@
 body {
-background-color: FFFFFF;
+background-color: #FFFFFF;
 font-family: Arial, sans-serif;
 text-align: center;
 margin: 0;
 padding: 1rem;
-transition: background-color 0,5;
+transition: background-color 0.5s;
 }
 h1 {
-color: FF0000;
+color: #FF0000;
 font-family: 'Times New Roman' , serif;
 text-align: center;
 font-size: 2rem;
 margin: 20px 0;
-transition color 0,5;
+transition: color 0.5s;
 }
 h2 {
 font-size: 1.5rem;
 }
 p {
-color: 00FF00;
+color: #00FF00;
 font-family: Arial, sans-serif;
 text-align: center;
 font-size: 1rem;
 padding: 5px;
-transition: color 0,5;
+transition: color 0.5s;
 }
 nav a {
 padding: 0.6rem 1rem;
@@ -38,10 +38,10 @@ display: block;
 display: flex;
 flex-wrap: wrap;
 gap: 10px;
-justify-conent: center;
+justify-content: center;
 }
 .galerie img {
-width: calc(50% -10px);
+width: calc(50% - 10px);
 height: auto;
 display: block;
 }
@@ -50,3 +50,15 @@ display: block;
 width: 100%;
 }
 }
+footer {
+background: #0437F2;
+color: black;
+text-align: center;
+padding: 20px;
+}
+footer p {
+color: black;
+font-size: 14px;
+margin: 0;
+}
+
